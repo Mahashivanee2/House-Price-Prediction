@@ -21,12 +21,15 @@ The goal is to explore housing data, train multiple regression models and experi
 - Seaborn
 - Scikit-learn
 - Google Colab
+<img width="603" height="226" alt="image" src="https://github.com/user-attachments/assets/e6cd3fbc-f434-45e7-bfca-8270dd92d267" />
 
-## Objectives
+Limitations
 
-- Understand and explore the dataset.
-- Learn and implement regression algorithms.
-- Compare model performance using evaluation metrics.
-- Tune hyperparameters using GridSearchCV.
-- Analyze feature importance.
-- Make predictions using the final model.
+The model predicts area-level median house values, not individual property prices.
+
+The original dataset target has a $500,000 upper cap.
+
+Performance may differ on new data or outside California.
+
+The test set was used during model comparison and experimentation, so the reported performance is not a completely untouched final estimate.
+
